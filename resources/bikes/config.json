@@ -16,6 +16,14 @@
 			"required": true,
 			"id": "model",
 			"order": 1
+		},
+		"beaconMinor": {
+			"name": "beaconMinor",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "beaconMinor",
+			"order": 2
 		}
 	}
 }
