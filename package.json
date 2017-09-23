@@ -3,7 +3,7 @@
     "node": ">= 4.0"
   },
   "scripts": {
-    "postinstall": "dpd keygen && dpd showkey"
+    "postinstall": "mkdir .dpd && dpd keygen && dpd showkey"
   },
   "dependencies": {
     "deployd": "^1.0.0",
