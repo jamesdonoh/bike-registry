@@ -17,12 +17,12 @@ var server = deployd({
 server.listen();
 
 server.on('listening', function() {
-  console.log("Server is listening");
+  console.log('Server is listening');
 });
 
 server.on('error', function(err) {
   console.error(err);
-  process.nextTick(function() { // Give the server a chance to return an error
+  process.nextTick(function() {
     process.exit();
   });
 });
