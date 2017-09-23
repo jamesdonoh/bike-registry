@@ -1,6 +1,5 @@
 var deployd = require('deployd');
 
-
 var server = deployd({
   port: process.env.PORT || 5000,
   env: 'production',
