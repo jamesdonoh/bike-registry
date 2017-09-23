@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"make": {
+			"name": "make",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "make",
+			"order": 0
+		},
+		"model": {
+			"name": "model",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "model",
+			"order": 1
+		}
+	}
+}
