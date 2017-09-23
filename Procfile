@@ -1,1 +1,1 @@
-web: dpd
+web: node server

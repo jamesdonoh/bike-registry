@@ -4,12 +4,12 @@ var server = deployd({
   port: process.env.PORT || 5000,
   env: 'production',
   db: {
-    host: 'my.production.mongo.host',
-    port: 27105,
-    name: 'my-db',
+    host: process.env.MONGODB_HOST,
+    port: process.env.MONGODB_PORT,
+    name: process.env.MONGODB_NAME,
     credentials: {
-      username: 'username',
-      password: 'password'
+      username: process.env.MONGODB_USERNAME,
+      password: process.env.MONGODB_PASSWORD
     }
   }
 });
