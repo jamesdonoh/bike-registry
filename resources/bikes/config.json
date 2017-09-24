@@ -24,6 +24,14 @@
 			"required": true,
 			"id": "beaconMinor",
 			"order": 2
+		},
+		"missing": {
+			"name": "missing",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": true,
+			"id": "missing",
+			"order": 3
 		}
 	}
 }
