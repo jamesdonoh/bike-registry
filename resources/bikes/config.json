@@ -17,13 +17,21 @@
 			"id": "model",
 			"order": 1
 		},
+		"colour": {
+			"name": "colour",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "colour",
+			"order": 2
+		},
 		"beaconMinor": {
 			"name": "beaconMinor",
 			"type": "number",
 			"typeLabel": "number",
 			"required": true,
 			"id": "beaconMinor",
-			"order": 2
+			"order": 3
 		},
 		"missing": {
 			"name": "missing",
@@ -31,7 +39,7 @@
 			"typeLabel": "boolean",
 			"required": false,
 			"id": "missing",
-			"order": 3
+			"order": 4
 		}
 	}
 }
