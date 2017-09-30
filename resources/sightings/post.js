@@ -25,7 +25,11 @@ dpd.bikes.get(sighting.bikeId)
         const notification = new apn.Notification();
         notification.topic = 'io.github.jamesdonoh.FindMyBike';
         notification.alert = `Your ${bike.make} ${bike.model} has been found`;
-        notification.payload = {'longitude': sighting.longitude, 'latitude': sighting.latitude};
+        notification.payload = {
+            'bikeDescription': bike.make + ' ' + bike.model,
+            'longitude': sighting.longitude,
+            'latitude': sighting.latitude
+        };
 
         console.log(`Sending notification: ${notification.compile()} to ${deviceToken}`);
 
