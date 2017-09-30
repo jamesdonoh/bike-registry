@@ -6,7 +6,7 @@ const apnOptions = {
         keyId: process.env.APN_KEYID,
         teamId: process.env.APN_TEAMID
     },
-    production: false
+    production: process.env.APN_PRODUCTION == 'true'
 };
 const apnProvider = new apn.Provider(apnOptions);
 
