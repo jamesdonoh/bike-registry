@@ -31,7 +31,7 @@ dpd.bikes.get(sighting.bikeId)
             'latitude': sighting.latitude
         };
 
-        console.log(`Sending notification: ${notification.compile()} to ${deviceToken}`);
+        console.log(`Sending notification: ${notification.compile()} to ${deviceToken} via ${apnOptions.production ? 'production' : 'development'} APNs`);
 
         apnProvider.send(notification, deviceToken).then((result) => {
             console.log(`sent: ${result.sent.length}, failed: ${result.failed.length}`);
