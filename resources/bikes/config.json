@@ -40,6 +40,14 @@
 			"required": false,
 			"id": "missing",
 			"order": 4
+		},
+		"deviceToken": {
+			"name": "deviceToken",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "deviceToken",
+			"order": 5
 		}
 	}
 }
