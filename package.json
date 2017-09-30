@@ -6,6 +6,7 @@
     "postinstall": "mkdir .dpd && dpd keygen && dpd showkey"
   },
   "dependencies": {
+    "apn": "^2.1.5",
     "deployd": "^1.0.0",
     "deployd-cli": "^2.0.2",
     "dpd-clientlib": "^0.0.1",
